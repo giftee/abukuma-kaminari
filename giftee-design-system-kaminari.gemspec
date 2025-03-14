@@ -1,8 +1,8 @@
-require_relative "lib/giftee/design/system/kaminari/version"
+require_relative "lib/giftee-design-system-kaminari/version"
 
 Gem::Specification.new do |spec|
   spec.name        = "giftee-design-system-kaminari"
-  spec.version     = Giftee::Design::System::Kaminari::VERSION
+  spec.version     = GifteeDesignSystemKaminari::VERSION
   spec.authors     = ["tatematsu-k"]
   spec.email       = ["ynu1264@gmail.com"]
   spec.homepage    = "https://github.com/giftee/giftee-design-system-kaminari"
@@ -18,6 +18,10 @@ Gem::Specification.new do |spec|
     Dir["{app,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   end
 
+  spec.require_paths = ["lib"]
+  spec.bindir = "exe"
+  spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
+
   spec.add_dependency "rails", ">= 7.1.3.3"
-  spec.add_dependency "kaminari", ">= 1.0.0, < 2.0.0"
+  spec.add_dependency "kaminari", ">= 1.0.0", "< 2.0.0"
 end
