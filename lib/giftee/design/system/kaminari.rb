@@ -1,11 +1,14 @@
-require "giftee/design/system/kaminari/version"
-require "giftee/design/system/kaminari/engine"
+# frozen_string_literal: true
+
+require 'rails'
+require_relative "kaminari/version"
+require_relative "kaminari/engine"
 
 module Giftee
   module Design
     module System
       module Kaminari
-        # Your code goes here...
+        class Error < StandardError; end
       end
     end
   end
