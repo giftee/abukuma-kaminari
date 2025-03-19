@@ -21,7 +21,7 @@ Render pagination with this gem's theme:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/giftee-design-system-kaminari.
+Bug reports and pull requests are welcome on GitHub at https://github.com/giftee/giftee-design-system-kaminari.
 
 ## License
 
