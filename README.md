@@ -8,7 +8,7 @@ Add to your Gemfile.
 
 ```
 gem "kaminari"
-gem "giftee-design-system-kaminari", github: "giftee/giftee-design-system-kaminari"
+gem "gifteeabukuma-kaminari", github: "giftee/abukuma-kaminari"
 ```
 
 And run `bundle install` in console.
@@ -17,11 +17,11 @@ And run `bundle install` in console.
 
 Render pagination with this gem's theme:
 
-`paginate @users, theme: 'giftee-design-system'`
+`paginate @users, theme: 'abukuma'`
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/giftee/giftee-design-system-kaminari.
+Bug reports and pull requests are welcome on GitHub at https://github.com/giftee/abukuma-kaminari.
 
 ## License
 
