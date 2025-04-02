@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-# Specify your gem's dependencies in giftee-design-system-kaminari.gemspec.
+# Specify your gem's dependencies in gifteeabukuma-kaminari.gemspec.
 gemspec
 
 gem "puma"

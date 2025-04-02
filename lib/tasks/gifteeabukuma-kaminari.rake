@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :giftee_design_system_kaminari do
+# task :gifteeabukuma_kaminari do
 #   # Task goes here
 # end
