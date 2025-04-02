@@ -1,28 +1,30 @@
-# giftee design-system Kaminari Views
+# giftee Abukuma Kaminari Views
 
-[design-system](https://github.com/giftee/design-system) of [giftee](https://giftee.co.jp/) compatible styles for [Kaminari](https://github.com/kaminari/kaminari).
+Abukuma CSS は株式会社ギフティの[デザインシステム](https://github.com/giftee/design-system)の CSS framework です。gifteeabukuma-kaminari はそれを [Kaminari](https://github.com/kaminari/kaminari) で使いやすくした Gem です。
 
-## Installation
+## インストール
 
-Add to your Gemfile.
+Gemfile に以下を記述して bundle install してください。
 
 ```
 gem "kaminari"
-gem "gifteeabukuma-kaminari", github: "giftee/abukuma-kaminari"
+gem "gifteeabukuma-kaminari"
 ```
 
-And run `bundle install` in console.
+## 使い方
 
-## Usage
+以下のように Abukuma の theme で kaminari を利用してください。
 
-Render pagination with this gem's theme:
+`paginate @users, theme: 'gifteeabukuma'`
 
-`paginate @users, theme: 'abukuma'`
+## リリース
 
-## Contributing
+[RELEASING.md](./RELEASING.md) をご参照ください。
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/giftee/abukuma-kaminari.
+## ライセンス
 
-## License
+このプロダクトは[MIT](./LICENSE)の条件に従ってライセンスされています。
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+## 当社 OSS の利用にあたっての注意事項
+
+[当社 OSS の利用にあたっての注意事項](https://docs.google.com/document/d/1PXmZr5g1I5VxAsLNAmgvLDu0Yxzc4wHVlCusKmPtR4o/edit#heading=h.hezrzkxytrbw) をご参照ください。
